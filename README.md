@@ -1,2 +1,7 @@
 # ansible-basics
-Ansible Basics
+ansible basics
+### Project Description
+
+### Table of Contents
+
+###  How to use this project?
