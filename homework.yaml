@@ -1,0 +1,11 @@
+---
+  - name: Changing SElinux to disabled
+    hosts: localhost
+    tasks:
+      - name: Disable SElinux
+        lineinfile:
+          path: /etc/selinux/config
+          regexp: '^SElinux='
+          line: SElinux=disabled
+      - name: reboot the machine
+        command: reboot
