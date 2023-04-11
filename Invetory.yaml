@@ -1,0 +1,11 @@
+---
+  - name: creating file
+    hosts: localhost
+    tasks:
+      - name: create file1
+        file:
+          path: /root/ansible-basics/file1
+          state: touch
+          mode: 
+          
+
