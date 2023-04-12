@@ -1,6 +1,6 @@
 ---
   - name: Add Users to the localhost
-    hosts: localhost
+    hosts: 10.118.0.3
     tasks:
       - name: add user bob
         user: 
